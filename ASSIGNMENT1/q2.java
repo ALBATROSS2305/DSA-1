@@ -10,7 +10,7 @@ public class q2 {
         double height = input.nextDouble();
 
         double bmi = weight / (height * height);
-        System.out.printf("Your BMI is %.2f%n", bmi);
+        System.out.printf("Your BMI is ", bmi);
 
         if (bmi < 18.5) {
             System.out.println("Underweight");
